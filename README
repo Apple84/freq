@@ -1,0 +1,30 @@
+
+INSTALLATION:
+
+sudo cp bin/freq.pl /usr/bin/freq
+
+PURPOSE: 
+
+I do a lot of command line parsing on a daily basis. As such, I find myself
+doing a lot of quick evaluations based on transient flat files of data. Given a
+stream of lines from a file (e.g., cat or STDOUT from a process), this script
+will create a frequency report of how many times each unique line is
+encountered. That's all it does.
+
+USAGE:
+
+freq ----------------------------------------------------------------
+
+ USAGE: cat <file> | freq -sort [ascending|descending] --verbose
+
+   -sort       Change order of frequency reporting.
+               [ascending|descending]
+  --verbose    Full report, includes stats. [OPTIONAL]
+  --help       View option info.
+  --version    Display colinfo version.
+
+ default: freq -sort=descending
+
+---------------------------------------------------------------------
+
+

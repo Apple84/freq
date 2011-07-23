@@ -1,0 +1,4 @@
+2011-07-22  Todd Wylie  <todd@monkeybytes.org>
+
+	* bin/freq.pl: Added simple interface to command.
+
